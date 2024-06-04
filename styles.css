@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  color: #333;
+  font-size: 2rem;
+}
+body h1 {
+  font-size: 4rem;
+}
+
+.content {
+  width: 62.5%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+  margin: 0 auto;
+}
+.content input {
+  padding: 8px 16px;
+}
+.content button {
+  padding: 8px 16px;
+}
